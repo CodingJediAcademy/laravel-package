@@ -1,0 +1,27 @@
+{
+    "name": "coding-jedi-academy/laravel-package",
+    "description": "Test laravel package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CodingJediKnight",
+            "email": "coding.jedi.knight@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CodingJediAcademy\\LaravelPackage\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodingJediAcademy\\LaravelPackage\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.4",
+        "phpunit/phpunit": "^9.3"
+    }
+}
